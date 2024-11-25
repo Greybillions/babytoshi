@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter Tight', sans-serif;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.bg-n-1 {
+  background-color: #0052ff;
+  color: white;
+}
+
+.bg-n-2 {
+  background-color: #0f1627;
+  color: white;
+}
+
+.bg-t-1 {
+  background-color: #40e0bb;
+}
+
+.bg-o-1 {
+  background-color: #ffb300;
+}
+
+.text-lead {
+  color: #ff6501;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(100%); /* Start from right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left */
+  }
+}
+
+.animate-marquee-left {
+  animation: marquee-left linear infinite; /* Infinite loop */
+}
+
+.bg-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url('./assets/img/bgImg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Black semi-transparent overlay */
+  z-index: 1; /* Place in front of the background */
+}
+
+.bg-r-1 {
+  background-color: #ffffffe6;
+  color: black;
+}
+
+.b-r-1 {
+  border-color: #dff4ff;
+}
