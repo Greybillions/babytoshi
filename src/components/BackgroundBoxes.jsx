@@ -1,7 +1,7 @@
 const BackgroundBoxes = () => {
   return (
-    <div className='absolute inset-0 overflow-hidden pt-5'>
-      <div className='grid grid-cols-3 justify-items-center md:grid-cols-10  gap-4 opacity-50'>
+    <div className='absolute  inset-0 overflow-hidden pt-5'>
+      <div className='hidden md:grid grid-cols-3 justify-items-center md:grid-cols-10  gap-4 opacity-50'>
         {Array.from({ length: 20 }).map((_, index) => (
           <div
             key={index}
