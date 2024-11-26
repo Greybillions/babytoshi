@@ -83,3 +83,18 @@ body {
 .b-r-1 {
   border-color: #dff4ff;
 }
+
+@keyframes fade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+}
+
+.animate-fade {
+  animation: fade 3s infinite alternate;
+}

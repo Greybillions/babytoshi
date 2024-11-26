@@ -43,7 +43,7 @@ const About = () => {
 
   return (
     <section id='story' className='bg-n-2'>
-      <div className='container w-full mx-auto my-7 flex flex-col lg:flex-row h-auto lg:h-[80vh] justify-around items-center'>
+      <div className='container w-full mx-auto mt-7 flex flex-col lg:flex-row h-auto lg:h-[80vh] justify-around items-center'>
         <div className='p-3 flex flex-col items-left justify-center md:p-16 md:pl-40 mx-auto my-3 w-full text-pretty lg:w-1/2'>
           <h2 className='text-left text-lead pl-3 md:pl-0'>Story of Btoshi</h2>
           <p className='text-left text-5xl font-semibold my-3 pl-3 md:pl-0'>

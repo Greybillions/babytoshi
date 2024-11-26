@@ -1,14 +1,26 @@
 import { socialIcons } from '../assets/icons';
+import { useGSAP } from '@gsap/react';
+import { animateWithGsap } from '../utils/animation.js';
 
 const Links = () => {
+  useGSAP(() => {
+    animateWithGsap('#link', {
+      opacity: 1,
+      y: -25,
+      stagger: 0.1,
+      ease: 'power2.out',
+    });
+  });
+
   return (
-    <section id='links' className='z-20 w-full'>
+    <section className='z-20 w-full'>
       <div className='container h-[auto] w-full mx-auto my-7'>
         <h2 className='text-center text-xl font-semibold'>Official Links</h2>
         <div className='flex flex-wrap items-center justify-center p-3 mx-auto my-3'>
           {socialIcons.map((item) => (
             <a
-              className='rounded-full'
+              id='link'
+              className='rounded-full opacity-0 translate-y-50'
               key={item.id}
               href={item.url}
               target='_blank'

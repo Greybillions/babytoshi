@@ -6,9 +6,43 @@ import about3 from '../assets/img/about3.jpg';
 import about4 from '../assets/img/about4.png';
 import about5 from '../assets/img/about5.png';
 
+import nft1 from '../assets/img/nft1.jpg';
+import nft2 from '../assets/img/nft2.jpg';
+import nft3 from '../assets/img/nft3.jpg';
+import nft4 from '../assets/img/nft4.jpg';
+import nft5 from '../assets/img/nft5.jpg';
+import nft6 from '../assets/img/nft6.jpg';
+import nft7 from '../assets/img/nft7.jpg';
+import nft8 from '../assets/img/nft8.jpg';
+import nft9 from '../assets/img/nft9.jpg';
+import nft10 from '../assets/img/nft10.jpg';
+import nft11 from '../assets/img/nft11.jpg';
+import nft12 from '../assets/img/nft12.jpg';
+import nft13 from '../assets/img/nft13.png';
+import nft14 from '../assets/img/nft14.jpg';
+import nft15 from '../assets/img/nft15.png';
+
 export const aboutImages = [about0, about1, about2, about3, about4, about5];
 
-// navigation
+export const nftImages = [
+  nft1,
+  nft2,
+  nft3,
+  nft4,
+  nft5,
+  nft6,
+  nft7,
+  nft8,
+  nft9,
+  nft10,
+  nft11,
+  nft12,
+  nft13,
+  nft14,
+  nft15,
+];
+
+// navigation data
 export const navigation = [
   {
     id: '0',
@@ -23,7 +57,7 @@ export const navigation = [
   {
     id: '2',
     title: 'NFT BToshis',
-    url: '#nftoshis',
+    url: '#nftbtoshis',
   },
   {
     id: '3',
@@ -47,6 +81,8 @@ export const navigation = [
   },
 ];
 
+// road map data
+
 export const roadMap = [
   {
     id: '0',
@@ -65,5 +101,128 @@ export const roadMap = [
     timeline: 'Q1 2025',
     description:
       'Listing on CoinGecko, CoinMarketcap, DEX and CEX and exchanges.',
+  },
+];
+
+// faq data
+
+export const faqData = [
+  {
+    id: '0',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+  {
+    id: '1',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+  {
+    id: '2',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+  {
+    id: '3',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+  {
+    id: '4',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+  {
+    id: '5',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+  {
+    id: '6',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+  {
+    id: '7',
+    question: 'What is NFT BToshis?',
+    answer:
+      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+  },
+];
+
+// footer data one
+
+export const footerListOne = [
+  {
+    id: '0',
+    title: 'Home',
+    url: '#home',
+  },
+  {
+    id: '1',
+    title: 'Story',
+    url: '#story',
+  },
+  {
+    id: '2',
+    title: 'NFT BToshis',
+    url: '#nftoshis',
+  },
+  {
+    id: '3',
+    title: 'Home',
+    url: '#home',
+  },
+  {
+    id: '4',
+    title: 'Story',
+    url: '#story',
+  },
+  {
+    id: '5',
+    title: 'NFT BToshis',
+    url: '#nftoshis',
+  },
+];
+
+// footer data two
+
+export const footerListTwo = [
+  {
+    id: '0',
+    title: 'Telegram',
+    url: '#home',
+  },
+  {
+    id: '1',
+    title: 'X (formally Twitter)',
+    url: '#story',
+  },
+  {
+    id: '2',
+    title: 'Discord',
+    url: '#nftoshis',
+  },
+  {
+    id: '3',
+    title: 'Instagram',
+    url: '#home',
+  },
+  {
+    id: '4',
+    title: 'Uniswap',
+    url: '#story',
+  },
+  {
+    id: '5',
+    title: 'CoinGecko',
+    url: '#nftoshis',
   },
 ];
