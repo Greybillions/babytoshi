@@ -62,7 +62,7 @@ const About = () => {
           <div className='relative mt-12 w-auto h-auto text-left pl-3 md:pl-0 '>
             <a
               href={whitePaper}
-              download='Baby Toshi White Paper 🐾.pdf'
+              download='Baby-Toshi-White-Paper.pdf'
               className='px-6 py-4 bg-white text-black rounded-3xl hover:bg-teal-300 transition-all'
             >
               <span className='ml-7 font-semibold'>Download Whitepaper</span>
