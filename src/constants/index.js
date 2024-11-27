@@ -131,30 +131,6 @@ export const faqData = [
     answer:
       'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
   },
-  {
-    id: '4',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
-  },
-  {
-    id: '5',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
-  },
-  {
-    id: '6',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
-  },
-  {
-    id: '7',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
-  },
 ];
 
 // footer data one
@@ -173,7 +149,7 @@ export const footerListOne = [
   {
     id: '2',
     title: 'NFT BToshis',
-    url: '#nftoshis',
+    url: 'https://rarible.com/babytoshictonfts/items',
   },
   {
     id: '3',
@@ -185,11 +161,6 @@ export const footerListOne = [
     title: 'Story',
     url: '#story',
   },
-  {
-    id: '5',
-    title: 'NFT BToshis',
-    url: '#nftoshis',
-  },
 ];
 
 // footer data two
@@ -198,31 +169,31 @@ export const footerListTwo = [
   {
     id: '0',
     title: 'Telegram',
-    url: '#home',
+    url: 'https://t.me/BabyToshiCTO',
   },
   {
     id: '1',
     title: 'X (formally Twitter)',
-    url: '#story',
+    url: 'https://x.com/bbtoshi_cto?t=-Y-SBnxWPwo7C4xTU42vgQ&s=09',
   },
   {
     id: '2',
-    title: 'Discord',
-    url: '#nftoshis',
+    title: 'Rarible',
+    url: 'https://rarible.com/babytoshictonfts',
   },
   {
     id: '3',
     title: 'Instagram',
-    url: '#home',
+    url: 'https://www.instagram.com/baby_toshi_cto/',
   },
   {
     id: '4',
     title: 'Uniswap',
-    url: '#story',
+    url: 'https://app.uniswap.org/explore/tokens/base/0x3a4ae78ebb5caad5d704c2fdaf19917c203bdfa3',
   },
   {
     id: '5',
-    title: 'CoinGecko',
-    url: '#nftoshis',
+    title: 'Dexscreener',
+    url: 'https://dexscreener.com/base/0x63E95975164f2ceC40c94CC79D1eef3e39978A13',
   },
 ];

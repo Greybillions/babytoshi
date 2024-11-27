@@ -34,7 +34,7 @@ const Nftbtoshis = () => {
         </div>
         <div className='relative mt-4 w-auto h-auto text-left pl-3 md:pl-0 '>
           <a
-            href=''
+            href='https://rarible.com/babytoshictonfts'
             className='px-6 py-4 bg-white text-black rounded-3xl hover:bg-teal-300 transition-all'
           >
             <span className='ml-7 font-semibold'>NFT Collection</span>
