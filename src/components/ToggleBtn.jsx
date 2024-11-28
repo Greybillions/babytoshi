@@ -31,7 +31,7 @@ const ToggleButton = ({
         )}
       </button>
       <div
-        className={`overflow-hidden transition-all duration-500 ${
+        className={`overflow-auto transition-all duration-500 ${
           isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
