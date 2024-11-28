@@ -18,7 +18,13 @@ const Faq = () => {
               <ToggleButton
                 key={index}
                 question={item.question}
-                answer={item.answer}
+                answer1={item.answer1}
+                answer2={item.answer2}
+                answer3={item.answer3}
+                answer4={item.answer4}
+                answer5={item.answer5}
+                answer6={item.answer6}
+                answer7={item.answer7}
               />
             ))}
           </div>

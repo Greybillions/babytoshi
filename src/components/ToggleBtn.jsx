@@ -1,7 +1,16 @@
 import { MdArrowDropDown, MdArrowDropUp } from 'react-icons/md';
 import { useState } from 'react';
 
-const ToggleButton = ({ question, answer }) => {
+const ToggleButton = ({
+  question,
+  answer1,
+  answer2,
+  answer3,
+  answer4,
+  answer5,
+  answer6,
+  answer7,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAnswer = () => {
@@ -27,7 +36,31 @@ const ToggleButton = ({ question, answer }) => {
         }`}
       >
         <p className='mt-2 pr-2 md:pr-4 text-gray-600 text-md font-semibold'>
-          {answer}
+          {answer1}
+        </p>
+
+        <p className='mt-2 pr-2 md:pr-4 text-gray-600 text-md font-semibold'>
+          {answer2}
+        </p>
+
+        <p className='mt-2 pr-2 md:pr-4 text-gray-600 text-md font-semibold'>
+          {answer3}
+        </p>
+
+        <p className='mt-2 pr-2 md:pr-4 text-gray-600 text-md font-semibold'>
+          {answer4}
+        </p>
+
+        <p className='mt-2 pr-2 md:pr-4 text-gray-600 text-md font-semibold'>
+          {answer5}
+        </p>
+
+        <p className='mt-2 pr-2 md:pr-4 text-gray-600 text-md font-semibold'>
+          {answer6}
+        </p>
+
+        <p className='mt-2 pr-2 md:pr-4 text-gray-600 text-md font-semibold'>
+          {answer7}
         </p>
       </div>
     </div>

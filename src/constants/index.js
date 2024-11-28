@@ -109,27 +109,48 @@ export const roadMap = [
 export const faqData = [
   {
     id: '0',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+    question: 'What is Baby Toshi?',
+    answer1:
+      'Baby Toshi is set to become the purr-sonality of Base, leading the way in this paws-itively exciting ecosystem! 🐾 With our ever-growing community and a meme game that’s the cat’s whiskers, Baby Toshi isn’t just a memecoin—it’s a movement.',
+    answer2:
+      'Our mission? To meow-tivate millions to join us onchain, with a mix of fun, utility, and a brand that’s simply fur-tastic. Together, we’re building a fur-midable future on Base. 🐱🚀 Ready to climb higher? Let’s do it, step by paw-step! #BabyToshi #BaseAdventures #CryptoCat',
   },
   {
     id: '1',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+    question: 'What is the Baby Toshi NFT project??',
+    answer1:
+      'The Baby Toshi NFT project is all about bringing a purr-fect blend of creativity, rewards, and community fun to the Base ecosystem! 🐾',
+    answer2:
+      'Our vision is to create a paws-itively thrilling experience where NFTs aren’t just collectibles—they’re gateways to exciting activities like raid2earn games, where you can claw your way to victory and earn real $TOSHI as prizes. 🎮🐱',
+    answer3:
+      'And here’s the meow-velous twist: some NFTs will be given away for free as special rewards! 🏆🐾 Imagine owning a unique Baby Toshi NFT while winning in a game designed to keep the community active and engaged. It’s a tail-twitching good time with a purpose!',
+    answer4:
+      'All inflowing $TOSHI will be fur-nelled into development, marketing, and even more purr-worthy gaming adventures. Because at Baby Toshi, we’re not just building a project—we’re creating a fur-tastic ecosystem where everyone wins.',
+    answer5:
+      'So, ready to make your mark in this claw-some journey? Let’s pounce forward together! 🐾🚀 #BabyToshi #NFTAdventure #MeowgicalJourney',
   },
   {
     id: '2',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+    question: 'Why the Base ecosystem?',
+    answer1:
+      'The Base ecosystem is the purr-fect choice for us, and here’s why we’re purring with excitement! 🐾💙',
+    answer2:
+      '1️⃣ Lightning-fast speed: The Base chain is so fast, even the speediest kitties couldn’t keep up. It’s the ideal platform for Baby Toshi to connect effortlessly with our global community. 🚀🐱',
+    answer3:
+      '2️⃣ Tiny fees: The transaction fees are so small, even the tiniest kittens wouldn’t complain. You can spend more on $Btoshi and less on fees. 🐾💸',
+    answer4:
+      '3️⃣ Transparency and security: On Base, every transaction is traceable, just like a kitty that always finds its way home. Clean, secure, and reliable—just like the Baby Toshi community. 🔒🐾',
+    answer5:
+      "4️⃣ Growing together: The Base ecosystem is buzzing with innovative projects and purring communities. Base's steadily increasing transaction volume means more funds are flowing in, creating endless opportunities for Baby Toshi to thrive. 🐾📈",
+    answer6:
+      '5️⃣ Decentralized yet welcoming: The Base chain feels like a cozy kitty bed—everyone feels at home. It’s the purr-fect space for new members to join the Baby Toshi family! 💙🐾',
+    answer7:
+      'That’s why we chose Base! It’s not just a chain; it’s the dream home for Baby Toshi, where every paw print matters, and together we’re building the future. Meowgical, right? 🐾✨ #BabyToshi #BaseEcosystem #Meowmentum 🚀',
   },
   {
     id: '3',
-    question: 'What is NFT BToshis?',
-    answer:
-      'Toshi aims to become the Face of Base and a leading figure in the burgeoning Base ecosystem. Leveraging a robust meme culture and an expanding community, Toshi strives to be the premier memecoin on Base, drawing in the masses with its significant utility and industry-recognized brand to onboard billions onchain.',
+    question: 'What is BToshi contract address?',
+    answer1: '0x3A4Ae78EbB5caAD5d704C2FDAf19917C203bDfa3',
   },
 ];
 
@@ -160,6 +181,16 @@ export const footerListOne = [
     id: '4',
     title: 'Story',
     url: '#story',
+  },
+  {
+    id: '5',
+    title: 'Contact',
+    url: 'mailto:babytoshicto@babytoshicto.com',
+  },
+  {
+    id: '6',
+    title: 'Further Info',
+    url: 'mailto:admin@babytoshicto.com',
   },
 ];
 
@@ -195,5 +226,10 @@ export const footerListTwo = [
     id: '5',
     title: 'Dexscreener',
     url: 'https://dexscreener.com/base/0x63E95975164f2ceC40c94CC79D1eef3e39978A13',
+  },
+  {
+    id: '6',
+    title: 'Flooz',
+    url: 'https://flooz.xyz/bbtoshi_cto?utm_source=telegram&utm_medium=buy-message-iris-teams&utm_campaign=hub-page',
   },
 ];

@@ -1,5 +1,5 @@
 import discord from './icons/discord.svg';
-import coingecko from './icons/coingecko.svg';
+import flooz2 from './icons/fllooz2.png';
 import cmc from './icons/cmc.svg';
 import dexscreener from './icons/dexscreener.jpg';
 import instagram from './icons/instagram.svg';
@@ -11,7 +11,7 @@ import x from './icons/x.svg';
 import uniswap from './exchangeIcons/uniswap.png';
 import rarible from './exchangeIcons/rarible.svg';
 import dexscreener2 from './exchangeIcons/dexscreener.webp';
-import mexc from './exchangeIcons/mexc.png';
+import flooz from './exchangeIcons/flooz.svg';
 import okx from './exchangeIcons/okx.png';
 import gate from './exchangeIcons/gate.png';
 
@@ -28,8 +28,8 @@ export const socialIcons = [
   },
   {
     id: '2',
-    icon: coingecko,
-    url: '#',
+    icon: flooz2,
+    url: 'https://flooz.xyz/bbtoshi_cto?utm_source=telegram&utm_medium=buy-message-iris-teams&utm_campaign=hub-page',
   },
   {
     id: '3',
@@ -81,8 +81,8 @@ export const exchangeIcons = [
   },
   {
     id: '3',
-    icon: mexc,
-    url: '#',
+    icon: flooz,
+    url: 'https://flooz.xyz/bbtoshi_cto?utm_source=telegram&utm_medium=buy-message-iris-teams&utm_campaign=hub-page',
   },
   {
     id: '4',
