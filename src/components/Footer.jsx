@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <div className='flex flex-col'>
               {footerListTwo.map((item) => (
-                <a href={item.url} key={item.id}>
+                <a href={item.url} target='_blank' key={item.id}>
                   {item.title}
                 </a>
               ))}

@@ -26,7 +26,7 @@ const Roadmap = () => {
             ))}
             <div className='relative my-12 w-auto h-auto text-left pl-3 md:pl-0 '>
               <a
-                href=''
+                href='https://t.me/BabyToshiCTO'
                 target='_blank'
                 className='px-10 py-4 bg-[#0052ff] text-white rounded-3xl hover:bg-[#ff6501] transition-all'
               >

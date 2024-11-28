@@ -20,10 +20,10 @@ const Links = () => {
           {socialIcons.map((item) => (
             <a
               id='link'
+              target='_blank'
               className='rounded-full opacity-0 translate-y-50'
               key={item.id}
               href={item.url}
-              target='_blank'
               rel='noopener noreferrer'
             >
               <img
