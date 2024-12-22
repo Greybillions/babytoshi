@@ -1,12 +1,13 @@
-import discord from './icons/discord.svg';
+import blockspot from './icons/blockspotIcon.png';
 import flooz2 from './icons/fllooz2.png';
 import cmc from './icons/cmc.svg';
 import dexscreener from './icons/dexscreener.jpg';
 import instagram from './icons/instagram.svg';
-import medium from './icons/medium.svg';
+import paprika from './icons/paprikaIcon.svg';
 import telegram from './icons/telegram.svg';
-import tiktok from './icons/tiktok.svg';
+import geckoTerm from './icons/geckoTermIcon.svg';
 import x from './icons/x.svg';
+import coinranking from './icons/coinrankingIcon.svg';
 
 import uniswap from './exchangeIcons/uniswap.png';
 import rarible from './exchangeIcons/rarible.svg';
@@ -43,23 +44,28 @@ export const socialIcons = [
   },
   {
     id: '5',
-    icon: medium,
-    url: '#',
+    icon: paprika,
+    url: 'https://coinpaprika.com/coin/btoshi-baby-toshi/',
   },
   {
     id: '6',
-    icon: discord,
-    url: 'https://t.me/BabyToshiCTO',
+    icon: blockspot,
+    url: 'https://blockspot.io/coin/baby-toshi/',
   },
   {
     id: '7',
-    icon: tiktok,
-    url: '#',
+    icon: geckoTerm,
+    url: 'https://www.geckoterminal.com/hu/base/pools/0x63e95975164f2cec40c94cc79d1eef3e39978a13',
   },
   {
     id: '8',
     icon: x,
     url: 'https://x.com/bbtoshi_cto?t=-Y-SBnxWPwo7C4xTU42vgQ&s=09',
+  },
+  {
+    id: '9',
+    icon: coinranking,
+    url: 'https://coinranking.com/coin/zesRhMUAs+babytoshi-btoshi',
   },
 ];
 
