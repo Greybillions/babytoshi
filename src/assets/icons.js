@@ -60,7 +60,7 @@ export const socialIcons = [
   {
     id: '8',
     icon: x,
-    url: 'https://x.com/bbtoshi_cto?t=-Y-SBnxWPwo7C4xTU42vgQ&s=09',
+    url: 'https://x.com/btoshionbase?t=oD5LBrI0F58_ylCSMM7_RQ&s=09',
   },
   {
     id: '9',
