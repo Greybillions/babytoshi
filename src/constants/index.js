@@ -205,7 +205,7 @@ export const footerListTwo = [
   {
     id: '1',
     title: 'X (formally Twitter)',
-    url: 'https://x.com/bbtoshi_cto?t=-Y-SBnxWPwo7C4xTU42vgQ&s=09',
+    url: 'https://x.com/btoshionbase?t=oD5LBrI0F58_ylCSMM7_RQ&s=09',
   },
   {
     id: '2',
